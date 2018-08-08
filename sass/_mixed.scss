@@ -1,0 +1,47 @@
+@mixin transition($a){
+	-webkit-transition: $a;
+	-moz-transition: $a;
+	-ms-transition: $a;
+	-o-transition: $a;
+	transition: $a;
+}
+
+@mixin translate($a,$b){
+	-moz-transform: translate($a,$b);
+  -webkit-transform: translate($a,$b);
+  -o-transform: translate($a,$b);
+  -ms-transform: translate($a,$b);
+  transform: translate($a,$b);
+}
+
+@mixin scale($a,$b){
+  -webkit-transform:scale + $a + "(" + $b + ")";
+  -moz-transform:scale + $a + "(" + $b + ")";
+  transform:scale + $a + "(" + $b + ")";
+}
+
+@mixin opacity($a){
+  -moz-opacity: $a;
+  -khtml-opacity: $a;
+  -webkit-opacity: $a;
+  opacity: $a;
+}
+
+@mixin gradient($rotate, $color1, $color2){
+	background: -moz-linear-gradient($rotate, $color1, $color2);
+	background: -ms-linear-gradient($rotate, $color1, $color2); 
+	background: -webkit-linear-gradient($rotate, $color1, $color2);  
+	background: linear-gradient($rotate, $color1, $color2);  
+}
+
+@mixin rotation($b){
+  -webkit-transform: rotate($b);
+  -moz-transform: rotate($b);
+  transform: rotate($b);
+}
+
+@mixin box-shadow($a) {
+  -webkit-box-shadow: $a;
+  -moz-box-shadow: $a;
+  box-shadow: $a;
+}

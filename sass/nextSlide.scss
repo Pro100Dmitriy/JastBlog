@@ -1,0 +1,198 @@
+$clasForDivImage: "img_slider";
+$clasSlide: "home_slider";
+$typeScrol: "scale";  //"translate"  or  "scale"
+$width_arrow: 45px;
+$height_arrow: 80px;
+$size_arrow: 2rem;
+$color_arrow: rgba(#000,0.7);
+$background_arrow: rgba(#fff,0.4);
+$transition: 0.3s;
+
+
+.#{$clasSlide} .slick-arrow{
+	position: absolute;
+	top: 420px;
+	z-index: 100;
+	display: flex;
+	width: 220px + $width_arrow;
+	align-items: center;
+	.#{$clasForDivImage}{
+		height: 145px;
+		width: 220px;
+		overflow: hidden;
+		outline: 3px solid rgba(#fff, 0.7);
+		outline-offset: -3px;
+		img{
+			height: 155px;
+		}
+	}
+}
+
+.#{$clasSlide} .slick-prev{
+	left: 0%;
+	@include translate(-220px,-100%);
+	@include transition(all 0.3s ease);
+	&::before{
+		content: '';
+	}
+	&::after{
+		content: '\f104';
+		font:{
+			family: "FontAwesome";
+			size: $size_arrow;
+			weight: 700;
+		}
+		text-align: center;
+		line-height: $height_arrow;
+		width: $width_arrow;
+    height: $height_arrow;
+    color: $color_arrow;
+    background: $background_arrow;
+    display: block;
+    @include opacity(1);
+    @include transition(all $transition ease);
+	}
+}
+.#{$clasSlide} .slick-next{
+	right: 0%;
+	@include translate(220px,-100%);
+	@include transition(all 0.3s ease);
+	&::before{
+		content: '\f105';
+		font:{
+			family: "FontAwesome";
+			size: $size_arrow;
+			weight: 700;
+		}
+		text-align: center;
+		line-height: $height_arrow;
+		width: $width_arrow;
+    height: $height_arrow;
+    color: $color_arrow;
+    background: $background_arrow;
+    display: block;
+    @include opacity(1);
+    @include transition(all $transition ease);
+	}
+}
+
+
+@mixin transition($a){
+	-webkit-transition: $a;
+	-moz-transition: $a;
+	-ms-transition: $a;
+	-o-transition: $a;
+	transition: $a;
+}
+@mixin translate($a,$b){
+	-moz-transform: translate($a,$b);
+  -webkit-transform: translate($a,$b);
+  -o-transform: translate($a,$b);
+  -ms-transform: translate($a,$b);
+  transform: translate($a,$b);
+}
+@mixin scale($a,$b){
+  -webkit-transform:scale + $a + "(" + $b + ")";
+  -moz-transform:scale + $a + "(" + $b + ")";
+  transform:scale + $a + "(" + $b + ")";
+}
+
+@mixin afterhover(){
+
+@if $typeScrol == "translate"{
+	&:hover{
+		@include translate(0px,-100%);
+		&::after{
+    	background: rgba($JB_blue,1);
+    	color: rgba(#fff,1);
+		}
+		.#{$clasForDivImage}{
+			outline: 3px solid rgba($JB_blue, 1);
+		}
+	}
+}@else if $typeScrol == "scale"{
+	&:hover{
+		@include translate(0px,-100%);
+		&::after{
+    	background: rgba($JB_blue,1);
+    	color: rgba(#fff,1);
+		}
+		.#{$clasForDivImage}{
+			outline: 3px solid rgba($JB_blue, 1);
+			@include scale(Y,1);
+			@include opacity(1);
+		}
+	}
+}
+
+}
+
+@mixin beforehover(){
+
+@if $typeScrol == "translate"{
+	&:hover{
+		@include translate(0px,-100%);
+		&::before{
+    	background: rgba($JB_blue,1);
+    	color: rgba(#fff,1);
+		}
+		.#{$clasForDivImage}{
+			outline: 3px solid rgba($JB_blue, 1);
+		}
+	}
+} @else if $typeScrol == "scale"{
+	&:hover{
+		@include translate(0px,-100%);
+		&::before{
+    	background: rgba($JB_blue,1);
+    	color: rgba(#fff,1);
+		}
+		.#{$clasForDivImage}{
+			outline: 3px solid rgba($JB_blue, 1);
+			@include scale(Y,1);
+			@include opacity(1);
+		}
+	}
+}
+
+}
+
+
+
+@if $typeScrol == "translate"{
+
+	.#{$clasSlide} .slick-prev{
+		.#{$clasForDivImage}{
+			@include transition(all 0.3s ease);
+		}
+		@include afterhover();
+	}
+	.#{$clasSlide} .slick-next{
+		.#{$clasForDivImage}{
+			@include transition(all 0.3s ease);
+		}
+		@include beforehover();
+	}
+
+} @else if $typeScrol == "scale"{
+
+	.#{$clasSlide} .slick-prev{
+		.#{$clasForDivImage}{
+			@include transition(all 0.3s ease);
+			@include scale(Y,0);
+			transform-origin: top;
+			@include opacity(0);
+		}
+		@include afterhover();
+	}
+	.#{$clasSlide} .slick-next{
+		.#{$clasForDivImage}{
+			@include transition(all 0.3s ease);
+			@include scale(Y,0);
+			transform-origin: top;
+			@include opacity(0);
+		}
+		@include beforehover();
+	}
+
+}

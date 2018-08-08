@@ -1,0 +1,115 @@
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body, html{
+	font:{
+		size: 16px;
+		family: "Montserrat", sans-serif !important;
+	}	
+}
+button{
+	font-family: "Montserrat", sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+h1{
+	font:{
+		size: 2.94rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+	line-height: 3.52rem;
+	margin: 0;
+}
+h2{
+	font:{
+		size: 1.4rem;
+		weight: 700;
+	}
+	text-transform: uppercase;
+	margin: 0.4rem 0;
+}
+h3{
+	font:{
+		size: 1.11rem;
+		weight: 700;
+	}
+	line-height: 1.47rem;
+	margin: 0;
+}
+h4{
+	font:{
+		size: 1rem;
+		weight: 700;
+	}
+	line-height: 1.47rem;
+	margin: 0;
+}
+h5{
+	font:{
+		size: 0.9rem;
+		weight: 700;
+	}
+	line-height: 1.3rem;
+	margin: 0;
+}
+h6{
+	font:{
+		size: 0.8rem;
+		weight: 500;
+	}
+	line-height: 1.3rem;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+p{
+	color: $JB_text;
+	font:{
+		size: 0.78em;
+		weight: 400;
+	}
+	line-height: 1.7em;
+}
+span{
+	color: $JB_text;
+	font:{
+		size: 0.7rem;
+		weight: 400;
+	}
+	line-height: 1.3rem;
+}
+
+small{
+	color: $JB_text;
+	font:{
+		size: 0.8rem;
+		weight: 400;
+	}
+}
+
+ul, nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	border: none;
+	font:{
+		size: 0.8rem;
+		family: "Montserrat", sans-serif;
+		weight: 400;
+	}	
+}
+
+//::-webkit-scrollbar{width:0px;height:0px;}
+//::-webkit-scrollbar-button{width:0px;height:0px;}

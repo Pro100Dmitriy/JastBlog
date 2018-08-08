@@ -2,12 +2,2055 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Git</title>
+	<meta name="viewport" content="width=device-width">
+	<title>JastBlog</title>
+	<!-- Icons -->
+	<link rel="manifest" href="manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="icon/ios/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icon/ios/apple-touch-icon-60x60.png">
+	<!--  Fonts  -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<!--  Style  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-	<h1>hello world</h1>
+	<header class="header">
+		<div class="mobail_jb-logo">
+			<img height="50px" src="img/header/JastBlog_logo.png">
+		</div>
+		<div class="home-menu">
+			<div class="container space-between relative">
+				<div class="home-menu_left">
+					<button class="menu-btn"><span></span></button>
+					<div class="home-menu_left_desctop">
+						<!--desctop-->
+						<div class="jb-logo">
+							<img height="40px" src="img/header/JastBlog_logo.png">
+						</div>
+						<nav class="left_nav-menu">
+							<ul class="left_nav-menu_list">
+								<li class="current"><a href="#">Home</a></li>
+								<li class="child"><a href="#">Category</a></li>
+								<li class="child"><a href="#">Pages</a>
+									<ul class="drop-normal">
+										<li><span class="li_backgraund"></span><a href="#">Contact us</a></li>
+										<li><span class="li_backgraund"></span><a href="#">View all posts</a></li>
+										<li><span class="li_backgraund"></span><a href="#">Seatch resolt</a></li>
+										<li><span class="li_backgraund"></span><a href="#">Error 404</a></li>
+									</ul>
+								</li>
+								<li class="child"><a href="#">Shop</a>
+									<ul class="drop-normal">
+										<li><span class="li_backgraund"></span><a href="#">Single products</a></li>
+										<li><span class="li_backgraund"></span><a href="#">All products</a></li>
+										<li><span class="li_backgraund"></span><a href="#">Cart</a></li>
+									</ul>
+								</li>
+								<li class="child"><a href="#">Features</a></li>
+								<li><a href="#"><i class="fas fa-ellipsis-h"></i></a></li>
+							</ul>
+						</nav>
+						<!--desctop-->
+					</div>
+					<div class="home-menu_left_mobail">
+						<!--mobail-->
+							<nav class="mobail_nav-menu">
+								<ul class="mobail_nav-menu_list">
+									<li class="current"><a href="#">Home</a></li>
+									<li class="child">
+										<div class="child_link">
+											<a href="#">Category</a>
+											<i class="fas fa-angle-down"></i>
+										</div>
+										<div class="mobail_drop-big">
+											<!--mobailDropBig-->
+											<div class="mobail_drop-big_menu">
+												<ul class="mobail_drop-big_menu_list">
+													<li class="mobail-activ"><a href="#">Art</a>
+														<div class="mobail_article-menu">
+															<div class="mobail_article-menu_row">
+																<div class="mobail_article-menu_row_list normal_color">
+																	<article class="mobail_article ">
+																		<div class="mobail_article_img">
+																			<img width="240px" src="img/header/category-art/woman_in_gallery.jpg">
+																		</div>
+																		<h3>Top places wich you should visit in 2018</h3>
+																		<div class="date-articl space-between">
+																			<span>28 December 2016</span>
+																			<span><i class="fas fa-comment"></i> 12</span>
+																		</div>
+																	</article>
+																	<article class="mobail_article ">
+																		<div class="mobail_article_img">
+																			<img width="240px" src="img/header/category-art/graffiti-wall-art.jpg">
+																		</div>
+																		<h3>top places wich you should visit in 2018</h3>
+																		<div class="date-articl space-between">
+																			<span>28 December 2016</span>
+																			<span><i class="fas fa-comment"></i> 12</span>
+																		</div>
+																	</article>
+																	<article class="mobail_article ">
+																		<div class="mobail_article_img">
+																			<img width="240px" src="img/header/category-art/painting-art.jpg">
+																		</div>
+																		<h3>top places wich you should visit in 2018</h3>
+																		<div class="date-articl space-between">
+																			<span>28 December 2016</span>
+																			<span><i class="fas fa-comment"></i> 12</span>
+																		</div>
+																	</article>
+																	<article class="mobail_article ">
+																		<div class="mobail_article_img">
+																			<img width="240px" src="img/header/category-art/motorcycle-art.jpg">
+																		</div>
+																		<h3>top places wich you should visit in 2018</h3>
+																		<div class="date-articl space-between">
+																			<span>28 December 2016</span>
+																			<span><i class="fas fa-comment"></i> 12</span>
+																		</div>
+																	</article>
+																</div>
+															</div>
+															<div class="mobail_article-menu_background">
+																	<div class="mobail_position">
+																		<div class="mobail_article-menu_background_gradient"></div>
+																		<div class="mobail_article-menu_background_img" style="background-image: url('img/header/category-art/category-background.jpg');"></div>
+																	</div>
+															</div>
+														</div>
+													</li>
+													<li><a href="#">Music</a>
+														<div class="mobail_article-menu">
+															<div class="mobail_article-menu_row">
+																
+															</div>
+															<div class="mobail_article-menu_background">
+																	<div class="mobail_position">
+																		<div class="mobail_article-menu_background_gradient"></div>
+																		<div class="mobail_article-menu_background_img" style="background-image: url('img/header/category-music/category-background_music.jpg');"></div>
+																	</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!--mobailDropBig-->
+										</div>
+									</li>
+									<li class="child">
+										<div class="child_link">
+											<a href="#">Pages</a>
+											<i class="fas fa-angle-down"></i>
+										</div>
+										<ul class="mobail_drop-normal">
+											<li><a href="https://www.google.com/">Contact us</a></li>
+											<li><a href="#">View all posts</a></li>
+											<li><a href="#">Seatch resolt</a></li>
+											<li><a href="#">Error 404</a></li>
+										</ul>
+									</li>
+									<li class="child">
+										<div class="child_link">
+											<a href="#">Shop</a>
+											<i class="fas fa-angle-down"></i>
+										</div>
+										<ul class="mobail_drop-normal">
+											<li><a href="#">Single products</a></li>
+											<li><a href="#">All products</a></li>
+											<li><a href="#">Cart</a></li>
+										</ul>
+									</li>
+									<li class="child">
+										<div class="child_link">
+											<a href="#">Features</a>
+											<i class="fas fa-angle-down"></i>
+										</div>
+									</li>
+									<li><a href="#"><i class="fas fa-ellipsis-h"></i></a></li>
+								</ul>
+							</nav>
+						<!--mobail-->
+					</div>
+				</div>
+				<div class="drop-big">
+					<!--dropBig-->
+					<div class="drop-big_menu">
+						<ul class="drop-big_menu_list">
+							<li class="hover">
+								<div class="li_link">
+									<span class="li_link_backgraund"></span>
+									<a href="#">Art</a>
+								</div>
+								<div class="articl-menu">
+									<div class="articl-menu_row">
+										<div class="articl-menu_row_list normal_color">
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-art/woman_in_gallery.jpg">
+												</div>
+												<h3>Top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-art/motorcycle-art.jpg">
+												</div>
+												<h3>top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-art/painting-art.jpg">
+												</div>
+												<h3>top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-art/graffiti-wall-art.jpg">
+												</div>
+												<h3>top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="articl-menu_background">
+										<div class="position">
+											<div class="articl-menu_background_gradient"></div>
+											<div class="articl-menu_background_img" style="background-image: url('img/header/category-art/timon-klauser-308449-unsplash.jpg');"></div>
+										</div>
+									</div>
+								</div>	
+							</li>
+							<li>
+								<div class="li_link">
+									<span class="li_link_backgraund"></span>
+									<a href="#">Music</a>
+								</div>
+								<div class="articl-menu">
+									<div class="articl-menu_row">
+										<div class="articl-menu_row_list normal_color">
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-music/audience-music.jpg">
+												</div>
+												<h3>Top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-music/concert-music.jpg">
+												</div>
+												<h3>top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-music/dark-music.jpg">
+												</div>
+												<h3>top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+											<article class="article ">
+												<div class="article_img">
+													<img src="img/header/category-music/guitar-music.jpg">
+												</div>
+												<h3>top places wich you should visit in 2018</h3>
+												<div class="date-articl space-between">
+													<span>28 December 2016</span>
+													<span><i class="fas fa-comment"></i> 12</span>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="articl-menu_background">
+										<div class="position">
+											<div class="articl-menu_background_gradient"></div>
+											<div class="articl-menu_background_img" style="background-image: url('img/header/category-music/mark-solarski-183866-unsplash.jpg');"></div>
+										</div>
+									</div>
+								</div>	
+							</li>
+						
+						</ul>
+					</div>
+					<!--dropBig-->
+				</div>
+				<div class="home-menu_right">
+					<nav class="right_nav-menu">
+						<ul class="right_nav-menu_list">
+							<li class="search"><i class="fas fa-search"></i>
+								<input type="text" name="search" placeholder="What do you want to search?">
+							</li>
+							<li class="cart"><i class="fas fa-shopping-cart"></i></li>
+							<li class="entance"><i class="fas fa-lock"></i></li>
+						</ul>	
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="home">
+		<div id="home_slider" class="home_slider">
+			<div class="home_slider_element" style="background-image: url('img/slider-img/wil-stewart-18242-unsplash.jpg');">
+				<!--element-->
+				<div class="gradient-bacground">
+					<div class="container space-between">
+						<div class="home_slider_element_text parallax">
+							<h1>popular posts in category travel</h1>
+							<button class="home_slider_element_text_button">
+								<div class="home_slider_element_text_button_background"></div>
+								<a href="#">Read more</a>
+							</button>
+						</div>
+						<div class="home_slider_element_articl parallax">
+							<!--articl-->
+							<article class="home_slider_element_articl_big imortant_color" style='background-image: url("img/slider-img/travel/frontslider1.jpg");'>
+								<div class="articl-background">
+									<div class="home_slider_element_articl_big_content">
+										<button class="category"><a href="#">Travel</a></button>
+										<h3>top places wich you should visit in 2018</h3>
+										<p class="text-articl">
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+										</p>
+										<div class="date-articl space-between">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+									</div>
+								</div>
+							</article>
+							<div class="articl-center">
+								<article class="home_slider_element_articl_small without-img normal_color">
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="home_slider_element_articl_small normal_color" style='background-image: url("img/slider-img/travel/frontslider2.jpg");'>
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="articl-right">
+								<article class="home_slider_element_articl_small normal_color" style='background-image: url("img/slider-img/travel/frontslider3.jpg");'>
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="home_slider_element_articl_small normal_color" style='background-image: url("img/slider-img/travel/frontslider4.jpg");'>
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<!--articl-->
+						</div>
+					</div>
+				</div>
+				<!--element-->
+			</div>
+			<div class="home_slider_element" style="background-image: url('img/slider-img/jeremy-bishop-346050-unsplash.jpg');">
+				<!--element-->
+				<div class="gradient-bacground">
+					<div class="container space-between ">
+						<div class="home_slider_element_text parallax">
+							<h1>popular posts in category travel</h1>
+							<button class="home_slider_element_text_button">
+								<div class="home_slider_element_text_button_background"></div>
+								<a href="#">Read more</a>
+							</button>
+						</div>
+						<div class="home_slider_element_articl parallax">
+							<!--articl-->
+							<article class="home_slider_element_articl_big imortant_color" style='background-image: url("img/slider-img/music/audience-music.jpg");'>
+								<div class="articl-background">
+									<div class="home_slider_element_articl_big_content">
+										<button class="category"><a href="#">Travel</a></button>
+										<h3>top places wich you should visit in 2018</h3>
+										<p class="text-articl">
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+										</p>
+										<div class="date-articl space-between">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+									</div>
+								</div>
+							</article>
+							<div class="articl-center">
+								<article class="home_slider_element_articl_small without-img normal_color">
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="home_slider_element_articl_small normal_color" style='background-image: url("img/slider-img/music/dark-music.jpg");'>
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="articl-right">
+								<article class="home_slider_element_articl_small normal_color" style='background-image: url("img/slider-img/music/music_air.jpg");'>
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="home_slider_element_articl_small normal_color" style='background-image: url("img/slider-img/music/music_mobail.jpg");'>
+									<div class="articl-background">
+										<div class="home_slider_element_articl_small_content">
+											<button class="category"><a href="#">Travel</a></button>
+											<h4>top places wich you should visit in 2018</h4>
+											<p class="text-articl">
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+											</p>
+											<div class="date-articl space-between">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<!--articl-->
+						</div>
+					</div>
+				</div>
+				<!--element-->
+			</div>
+		</div>
+	</section>
+	<!-- main contant -->
+	<div class="backgroud-page">
+		<section class="first-section">
+			<!-- first-section -->
+			<div class="container">
+				<div class="row space-between">
+					<div class="first-section_reason-posts">
+						<div class="first-section_reason-posts_left">
+							<!--article -->
+							<article class="article-post normal_color">
+								<div class="article-post_img">
+									<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+								</div>
+								<div class="article-post_description">
+									<button class="category"><a href="#">Travel</a></button>
+									<h3>IT IS A long established fact that a reader will be distracted</h3>
+									<div class="date-articl">
+										<span>28 September 2018</span>
+										<span><i class="fas fa-comment"></i> 12</span>
+									</div>
+									<div class="readmore">
+										<div class="readmore_icon">
+											<span class="triange"></span>
+											<i class="fas fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="article-post normal_color">
+								<div class="article-post_img">
+									<img width="320px" src="img/reason-posts/music_mobail.jpg">
+								</div>
+								<div class="article-post_description">
+									<button class="category"><a href="#">Travel</a></button>
+									<h3>IT IS A long established fact that a reader will be distracted</h3>
+									<div class="date-articl">
+										<span>28 September 2018</span>
+										<span><i class="fas fa-comment"></i> 12</span>
+									</div>
+									<div class="readmore">
+										<div class="readmore_icon">
+											<span class="triange"></span>
+											<i class="fas fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</article>
+							<!--article -->
+						</div>
+						<div class="first-section_reason-posts_center">
+							<!--article -->
+							<article class="article-post normal_color">
+								<div class="article-post_img">
+									<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+								</div>
+								<div class="article-post_description">
+									<button class="category"><a href="#">Travel</a></button>
+									<h3>IT IS A long established fact that a reader will be distracted</h3>
+									<div class="date-articl">
+										<span>28 September 2018</span>
+										<span><i class="fas fa-comment"></i> 12</span>
+									</div>
+									<div class="readmore">
+										<div class="readmore_icon">
+											<span class="triange"></span>
+											<i class="fas fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="article-post normal_color">
+								<div class="article-post_img">
+									<img width="320px" src="img/reason-posts/music_air.jpg">
+								</div>
+								<div class="article-post_description">
+									<button class="category"><a href="#">Travel</a></button>
+									<h3>IT IS A long established fact that a reader will be distracted</h3>
+									<div class="date-articl">
+										<span>28 September 2018</span>
+										<span><i class="fas fa-comment"></i> 12</span>
+									</div>
+									<div class="readmore">
+										<div class="readmore_icon">
+											<span class="triange"></span>
+											<i class="fas fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</article>
+							<!--article -->
+						</div>
+						<div class="first-section_reason-posts_right">
+							<!--article -->
+							<article class="article-post normal_color">
+								<div class="article-post_img">
+									<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+								</div>
+								<div class="article-post_description">
+									<button class="category"><a href="#">Travel</a></button>
+									<h3>IT IS A long established fact that a reader will be distracted</h3>
+									<div class="date-articl">
+										<span>28 September 2018</span>
+										<span><i class="fas fa-comment"></i> 12</span>
+									</div>
+									<div class="readmore">
+										<div class="readmore_icon">
+											<span class="triange"></span>
+											<i class="fas fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="article-post normal_color">
+								<div class="article-post_img">
+									<img width="320px" src="img/reason-posts/music_mobail.jpg">
+								</div>
+								<div class="article-post_description">
+									<button class="category"><a href="#">Travel</a></button>
+									<h3>IT IS A long established fact that a reader will be distracted</h3>
+									<div class="date-articl">
+										<span>28 September 2018</span>
+										<span><i class="fas fa-comment"></i> 12</span>
+									</div>
+									<div class="readmore">
+										<div class="readmore_icon">
+											<span class="triange"></span>
+											<i class="fas fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</article>
+							<!--article -->
+						</div>
+					</div>
+					<aside class="first-section_reason-news">
+						<div class="first-section_reason-news_box">
+							<!-- content -->
+							<div class="first-section_reason-news_box_title">
+								<h2>latest news</h2>
+							</div>
+							<div id="reason-news_box_article"  class="first-section_reason-news_box_article">
+								<article class="latext-news">
+									<div class="latext-news_title space-between">
+										<h4>Creater new i-phone</h4>
+										<button class="category-news"><a href="#">Travel</a></button>
+									</div>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil</p>
+									<div class="date-articl space-between">
+										<span>28 September 2018</span>
+										<button class="read-more">
+											<div class="read-more_background"></div>
+											<a href="#">Read more</a>
+										</button>
+									</div>
+								</article>
+								<article class="latext-news">
+									<div class="latext-news_title space-between">
+										<h4>Creater new i-phone</h4>
+										<button class="category-news"><a href="#">Travel</a></button>
+									</div>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil</p>
+									<div class="date-articl space-between">
+										<span>28 September 2018</span>
+										<button class="read-more">
+											<div class="read-more_background"></div>
+											<a href="#">Read more</a>
+										</button>
+									</div>
+								</article>
+								<article class="latext-news">
+									<div class="latext-news_title space-between">
+										<h4>Creater new i-phone</h4>
+										<button class="category-news"><a href="#">Travel</a></button>
+									</div>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil</p>
+									<div class="date-articl space-between">
+										<span>28 September 2018</span>
+										<button class="read-more">
+											<div class="read-more_background"></div>
+											<a href="#">Read more</a>
+										</button>
+									</div>
+								</article>
+								<article class="latext-news">
+									<div class="latext-news_title space-between">
+										<h4>Creater new i-phone</h4>
+										<button class="category-news"><a href="#">Travel</a></button>
+									</div>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil</p>
+									<div class="date-articl space-between">
+										<span>28 September 2018</span>
+										<button class="read-more">
+											<div class="read-more_background"></div>
+											<a href="#">Read more</a>
+										</button>
+									</div>
+								</article>
+								<article class="latext-news">
+									<div class="latext-news_title space-between">
+										<h4>Creater new i-phone</h4>
+										<button class="category-news"><a href="#">Travel</a></button>
+									</div>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil</p>
+									<div class="date-articl space-between">
+										<span>28 September 2018</span>
+										<button class="read-more">
+											<div class="read-more_background"></div>
+											<a href="#">Read more</a>
+										</button>
+									</div>
+								</article>
+								<article class="latext-news">
+									<div class="latext-news_title space-between">
+										<h4>Creater new i-phone</h4>
+										<button class="category-news"><a href="#">Travel</a></button>
+									</div>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil</p>
+									<div class="date-articl space-between">
+										<span>28 September 2018</span>
+										<button class="read-more">
+											<div class="read-more_background"></div>
+											<a href="#">Read more</a>
+										</button>
+									</div>
+								</article>
+							</div>
+							<!-- content -->
+						</div>
+					</aside>
+				</div>
+			</div>
+			<!-- first-section -->
+		</section>
+		<section class="video-section">
+			<div class="video-section_title container">
+				<h2>popular videos</h2>
+			</div>
+			<div class="video-section_background relative">
+				<div class="container">
 
-	<script type="text/javascript" src="main2.js"></script>
+					<div class="img_background">
+						<div class="img_background_position">
+							<div class="img_background_position_img" data-type="background" style="background-image: url('img/header/category-art/timon-klauser-308449-unsplash2.jpg');"></div>
+						</div>
+					</div>
+
+					<div class="video-section_category">
+						<nav class="video-section_category_menu">
+							<ul class="video-section_category_menu_list">
+								<li class="category_active"><a href="#">Popular<small>34</small></a></li>
+								<li><a href="#">Art<small>55</small></a>
+								<li><a href="#">Music<small>55</small></a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="video-section_place-slider">
+						<div id="video-section_slider" class="video-section_slider">
+							<article class="video imortant_color">
+								<div class="video_img">
+									<span class="play"><i class="far fa-play-circle"></i></span>
+									<div class="video_img_background"></div>
+									<img src="img/video/biker-384178_1920.jpg">
+								</div>
+								<button class="category"><a href="#">Travel</a></button>
+								<h4>There are many variations of passages of Lorem Ipsum available, but the majority hav</h4>
+							</article>
+							<article class="video imortant_color">
+								<div class="video_img">
+									<span class="play"><i class="far fa-play-circle"></i></span>
+									<div class="video_img_background"></div>
+									<img src="img/video/iphone-410324_1920.jpg">
+								</div>
+								<button class="category"><a href="#">Travel</a></button>
+								<h4>There are many variations of passages of Lorem Ipsum available, but the majority hav</h4>
+							</article>
+							<article class="video imortant_color">
+								<div class="video_img">
+									<span class="play"><i class="far fa-play-circle"></i></span>
+									<div class="video_img_background"></div>
+									<img src="img/video/clark-street-mercantile-33931-unsplash.jpg">
+								</div>
+								<button class="category"><a href="#">Travel</a></button>
+								<h4>There are many variations of passages of Lorem Ipsum available, but the majority hav</h4>
+							</article>
+							<article class="video imortant_color">
+								<div class="video_img">
+									<span class="play"><i class="far fa-play-circle"></i></span>
+									<div class="video_img_background"></div>
+									<img src="img/video/biker-384178_1920.jpg">
+								</div>
+								<button class="category"><a href="#">Travel</a></button>
+								<h4>There are many variations of passages of Lorem Ipsum available, but the majority hav</h4>
+							</article>
+							<article class="video imortant_color">
+								<div class="video_img">
+									<span class="play"><i class="far fa-play-circle"></i></span>
+									<div class="video_img_background"></div>
+									<img src="img/video/biker-384178_1920.jpg">
+								</div>
+								<button class="category"><a href="#">Travel</a></button>
+								<h4>There are many variations of passages of Lorem Ipsum available, but the majority hav</h4>
+							</article>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<section class="trending-section">
+			<div class="container">
+				<div class="trending-section_title">
+					<h2>trending this week</h2>
+				</div>
+				<div class="trending-section_content">
+					<div class="trending-section_content_top space-between">
+						<!--article big-->
+						<div class="big">
+							<article class="article-big normal_color">
+								<div class="article-big_background"></div>
+								<div class="article-big_left">
+									<div class="social">
+										<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+										<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+										<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+										<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+										<button class="category"><a href="#">Travel</a></button>
+									</div>
+									<div class="content">
+										<h4>There are many variations of passages of Lorem Ipsum available</h4>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+										<div class="date-articl space-between">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+									</div>
+								</div>
+								<div class="article-big_right">
+									<img src="img/post-big/daniel-roe-30147-unsplash.jpg">
+								</div>
+							</article>
+							<article class="article-big normal_color">
+								<div class="article-big_background"></div>
+								<div class="article-big_left">
+									<div class="social">
+										<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+										<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+										<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+										<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+										<button class="category"><a href="#">Travel</a></button>
+									</div>
+									<div class="content">
+										<h4>There are many variations of passages of Lorem Ipsum available</h4>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+										<div class="date-articl space-between">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+									</div>
+								</div>
+								<div class="article-big_right">
+									<img src="img/post-big/wil-stewart-18242-unsplash.jpg">
+								</div>
+							</article>
+						</div>
+						<!--article big-->
+						<!--article samll-->
+						<article class="article-small normal_color">
+							<div class="article-small_img">
+								<img src="img/post-big/bled-1899264_1920.jpg">
+							</div>
+							<div class="social">
+								<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+								<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+								<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+								<button class="category"><a href="#">Travel</a></button>
+							</div>
+							<div class="article-small_content">
+								<h4>There are many variations of passages of Lorem Ipsum available</h4>
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+								<div class="date-articl space-between">
+									<span>28 September 2018</span>
+									<span><i class="fas fa-comment"></i> 12</span>
+								</div>
+							</div>
+						</article>
+						<!--article samll-->
+					</div>
+					<div class="trending-section_content_bottom space-between">
+						<!--article samll-->
+						<article class="article-small normal_color">
+							<div class="article-small_img">
+								<img src="img/post-big/bled-1899264_1920.jpg">
+							</div>
+							<div class="social">
+								<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+								<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+								<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+								<button class="category"><a href="#">Travel</a></button>
+							</div>
+							<div class="article-small_content">
+								<h4>There are many variations of passages of Lorem Ipsum available</h4>
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+								<div class="date-articl space-between">
+									<span>28 September 2018</span>
+									<span><i class="fas fa-comment"></i> 12</span>
+								</div>
+							</div>
+						</article>
+						<!--article samll-->
+						<!--article big-->
+						<div class="big">
+							<article class="article-big normal_color">
+								<div class="article-big_background"></div>
+								<div class="article-big_left">
+									<div class="social">
+										<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+										<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+										<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+										<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+										<button class="category"><a href="#">Travel</a></button>
+									</div>
+									<div class="content">
+										<h4>There are many variations of passages of Lorem Ipsum available</h4>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+										<div class="date-articl space-between">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+									</div>
+								</div>
+								<div class="article-big_right">
+									<img src="img/post-big/madhu-shesharam-390606-unsplash.jpg">
+								</div>
+							</article>
+							<article class="article-big normal_color">
+								<div class="article-big_background"></div>
+								<div class="article-big_left">
+									<div class="social">
+										<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+										<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+										<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+										<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+										<button class="category"><a href="#">Travel</a></button>
+									</div>
+									<div class="content">
+										<h4>There are many variations of passages of Lorem Ipsum available</h4>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+										<div class="date-articl space-between">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+									</div>
+								</div>
+								<div class="article-big_right">
+									<img src="img/post-big/lucas-clara-579404-unsplash.jpg">
+								</div>
+							</article>
+						</div>
+						<!--article big-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="category-section">
+			<div class="container">
+				<div class="row">
+
+					<div class="category-section_news">
+						<main class="main">
+							<div class="main_title space-between">
+								<h2>natural</h2>
+								<ul class="main_title_list">
+									<li class="current"><a href="#">All</a></li>
+									<li><a href="#">Mountains</a></li>
+									<li><a href="#">Ocean</a></li>
+									<li><a href="#">Waterfall</a></li>
+									<li><a href="#">Forest</a></li>
+									<button class="button-prev button"><i class="fas fa-angle-left"></i></button>
+									<button class="button-next button"><i class="fas fa-angle-right"></i></button>
+								</ul>
+							</div>
+							<div class="main_article">
+									<!--article -->
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post-big imortant_color">
+										<div class="article-post-big_slider">
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_air.jpg"></div>
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_disk.jpg"></div>
+										</div>
+										<div class="article-post-big_description">
+											<div class="social">
+												<button class="category"><a href="#">Travel</a></button>
+												<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+												<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+												<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+												<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+												<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											</div>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<div class="date-articl ">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!--article -->
+							</div>
+						</main>
+						<main class="main">
+							<div class="main_title space-between">
+								<h2>travel</h2>
+								<ul class="main_title_list">
+									<li class="current"><a href="#">All</a></li>
+									<li><a href="#">Mountains</a></li>
+									<li><a href="#">Ocean</a></li>
+									<li><a href="#">Waterfall</a></li>
+									<li><a href="#">Forest</a></li>
+									<button class="button-prev button"><i class="fas fa-angle-left"></i></button>
+									<button class="button-next button"><i class="fas fa-angle-right"></i></button>
+								</ul>
+							</div>
+							<div class="main_article">
+									<!--article -->
+									<article class="article-post-big imortant_color">
+										<div class="article-post-big_slider">
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_air.jpg"></div>
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_disk.jpg"></div>
+										</div>
+										<div class="article-post-big_description">
+											<div class="social">
+												<button class="category"><a href="#">Travel</a></button>
+												<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+												<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+												<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+												<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+												<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											</div>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<div class="date-articl ">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!--article -->
+							</div>
+						</main>
+						<main class="main">
+							<div class="main_title space-between">
+								<h2>travel</h2>
+								<ul class="main_title_list">
+									<li class="current"><a href="#">All</a></li>
+									<li><a href="#">Mountains</a></li>
+									<li><a href="#">Ocean</a></li>
+									<li><a href="#">Waterfall</a></li>
+									<li><a href="#">Forest</a></li>
+									<button class="button-prev button"><i class="fas fa-angle-left"></i></button>
+									<button class="button-next button"><i class="fas fa-angle-right"></i></button>
+								</ul>
+							</div>
+							<div class="main_article">
+									<!--article -->		
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post-big imortant_color">
+										<div class="article-post-big_slider">
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_air.jpg"></div>
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_disk.jpg"></div>
+										</div>
+										<div class="article-post-big_description">
+											<div class="social">
+												<button class="category"><a href="#">Travel</a></button>
+												<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+												<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+												<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+												<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+												<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											</div>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<div class="date-articl ">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>							
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!--article -->
+							</div>
+						</main>
+						<main class="main">
+							<div class="main_title space-between">
+								<h2>music</h2>
+								<ul class="main_title_list">
+									<li class="current"><a href="#">All</a></li>
+									<li><a href="#">Mountains</a></li>
+									<li><a href="#">Ocean</a></li>
+									<li><a href="#">Waterfall</a></li>
+									<li><a href="#">Forest</a></li>
+									<button class="button-prev button"><i class="fas fa-angle-left"></i></button>
+									<button class="button-next button"><i class="fas fa-angle-right"></i></button>
+								</ul>
+							</div>
+							<div class="main_article">
+									<!--article -->		
+									<article class="article-post-big imortant_color">
+										<div class="article-post-big_slider">
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_air.jpg"></div>
+											<div class="article-post-big_slider_img"><img src="img/reason-posts/music_disk.jpg"></div>
+										</div>
+										<div class="article-post-big_description">
+											<div class="social">
+												<button class="category"><a href="#">Travel</a></button>
+												<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+												<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+												<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+												<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+												<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											</div>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<div class="date-articl ">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>							
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="article-post normal_color">
+										<div class="article-post_img">
+											<img width="320px" src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+										<div class="article-post_description">
+											<button class="category"><a href="#">Travel</a></button>
+											<h3>IT IS A long established fact that a reader will be distracted</h3>
+											<div class="date-articl">
+												<span>28 September 2018</span>
+												<span><i class="fas fa-comment"></i> 12</span>
+											</div>
+											<div class="readmore">
+												<div class="readmore_icon">
+													<span class="triange"></span>
+													<i class="fas fa-search"></i>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!--article -->
+							</div>
+						</main>
+						<div class="add">
+							<div class="add_img">
+								<img src="img/add/AD2.png">
+							</div>
+						</div>
+						<main id="new-post" class="new">
+							<div class="new_title space-between">
+								<h2>WHAT'S NEW</h2>
+								<ul class="new_title_list">
+									<button id="list" class="button-prev button"><i class="fas fa-th-list"></i></button>
+									<button id="th" class="button-next button"><i class="fas fa-th"></i></button>
+								</ul>
+							</div>
+							<div class="more_arricls">
+								<!-- article -->
+								<article class="new-article normal_color">
+									<div class="new-article_img">
+										<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+									</div>
+									<div class="new-article_description">
+										<div class="social">
+											<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+											<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+											<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											<button class="category"><a href="#">Travel</a></button>
+										</div>
+										<h3>IT IS A long established fact that a reader will be distracted</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="date-articl">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+										<div class="readmore">
+											<div class="readmore_icon">
+												<span class="triange"></span>
+												<i class="fas fa-search"></i>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="new-article normal_color">
+									<div class="new-article_img">
+										<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+									</div>
+									<div class="new-article_description">
+										<div class="social">
+											<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+											<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+											<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											<button class="category"><a href="#">Travel</a></button>
+										</div>
+										<h3>IT IS A long established fact that a reader will be distracted</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="date-articl">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+										<div class="readmore">
+											<div class="readmore_icon">
+												<span class="triange"></span>
+												<i class="fas fa-search"></i>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="new-article normal_color">
+									<div class="new-article_img">
+										<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+									</div>
+									<div class="new-article_description">
+										<div class="social">
+											<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+											<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+											<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											<button class="category"><a href="#">Travel</a></button>
+										</div>
+										<h3>IT IS A long established fact that a reader will be distracted</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="date-articl">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+										<div class="readmore">
+											<div class="readmore_icon">
+												<span class="triange"></span>
+												<i class="fas fa-search"></i>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="new-article normal_color">
+									<div class="new-article_img">
+										<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+									</div>
+									<div class="new-article_description">
+										<div class="social">
+											<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+											<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+											<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											<button class="category"><a href="#">Travel</a></button>
+										</div>
+										<h3>IT IS A long established fact that a reader will be distracted</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="date-articl">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+										<div class="readmore">
+											<div class="readmore_icon">
+												<span class="triange"></span>
+												<i class="fas fa-search"></i>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="new-article normal_color">
+									<div class="new-article_img">
+										<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+									</div>
+									<div class="new-article_description">
+										<div class="social">
+											<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+											<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+											<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											<button class="category"><a href="#">Travel</a></button>
+										</div>
+										<h3>IT IS A long established fact that a reader will be distracted</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="date-articl">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+										<div class="readmore">
+											<div class="readmore_icon">
+												<span class="triange"></span>
+												<i class="fas fa-search"></i>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="new-article normal_color">
+									<div class="new-article_img">
+										<img width="320px" src="img/reason-posts/mercedes-alvarez-584559-unsplash.jpg">
+									</div>
+									<div class="new-article_description">
+										<div class="social">
+											<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+											<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+											<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+											<button class="category"><a href="#">Travel</a></button>
+										</div>
+										<h3>IT IS A long established fact that a reader will be distracted</h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="date-articl">
+											<span>28 September 2018</span>
+											<span><i class="fas fa-comment"></i> 12</span>
+										</div>
+										<div class="readmore">
+											<div class="readmore_icon">
+												<span class="triange"></span>
+												<i class="fas fa-search"></i>
+											</div>
+										</div>
+									</div>
+								</article>
+								<!-- article -->
+							</div>
+						</main>
+					</div>
+					<aside id="sidebar" class="category-section_sidebar">
+						<div class="category-section_sidebar_follow sidebar-background">
+							<div class="sidebar-background_title">
+								<h2>FOLLOW US</h2>
+							</div>
+							<nav class="category-section_sidebar_follow_content">
+								<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+								<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+								<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+								<a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+								<a href="#" class="odnoklassniki"><i class="fab fa-odnoklassniki"></i></a>
+							</nav>
+						</div>
+						<div class="all_category sidebar-background">
+							<div class="sidebar-background_title">
+								<h2>ALL CATEGORY</h2>
+							</div>
+							<div class="all_category_content sidebar-background_content">
+								<ul class="all_category_content_list">
+									<li><a href="#" >Art</a></li>
+									<li><a href="#" >Travel</a></li>
+									<li><a href="#" >Nature</a></li>
+									<li><a href="#" >Lifestyle</a></li>
+									<li><a href="#" >Music</a></li>
+									<li><a href="#" >Entertainment</a></li>
+									<li><a href="#" >Fashion</a></li>
+									<li><a href="#" >Tecnology</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="reason-posts sidebar-background">
+							<div class="sidebar-background_title">
+								<h2>REASON POSTS</h2>
+							</div>
+							<div class="reason-posts_content imortant_color">
+								<div id="reason-posts_content_slider" class="reason-posts_content_slider">
+									<article class="video">
+										<div class="video_img">
+											<span class="play"><i class="far fa-play-circle"></i></span>
+											<div class="video_img_background"></div>
+											<img src="img/reason-posts/blonde-1867768_1920.jpg">
+										</div>
+									</article>
+									<article class="video">
+										<div class="video_img">
+											<span class="play"><i class="far fa-play-circle"></i></span>
+											<div class="video_img_background"></div>
+											<img src="img/reason-posts/iphone-410324_1920.jpg">
+										</div>
+									</article>
+								</div>
+								<div id="reason-posts_content_text" class="reason-posts_content_slider slider-text">
+									<article>
+										<button class="category"><a href="#">Travel</a></button>
+										<h5>There are many variations of passages of Lorem Ipsum available, but the majority hav</h5>
+									</article>
+									<article>
+										<button class="category"><a href="#">Music</a></button>
+										<h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h5>
+									</article>
+								</div>
+								<div class="reason-posts_content_list">
+									<article class="other-article">
+										<div class="other-article_img">
+											<img src="img/reason-posts/books-1149959_1920.jpg">
+										</div>
+										<div class="other-article_descripshion">
+											<h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+											<span>28 September 2018</span>
+										</div>
+									</article>
+									<article class="other-article">
+										<div class="other-article_img">
+											<img src="img/reason-posts/books-1149959_1920.jpg">
+										</div>
+										<div class="other-article_descripshion">
+											<h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+											<span>28 September 2018</span>
+										</div>
+									</article>
+									<article class="other-article">
+										<div class="other-article_img">
+											<img src="img/reason-posts/books-1149959_1920.jpg">
+										</div>
+										<div class="other-article_descripshion">
+											<h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+											<span>28 September 2018</span>
+										</div>
+									</article>
+									<article class="other-article">
+										<div class="other-article_img">
+											<img src="img/reason-posts/books-1149959_1920.jpg">
+										</div>
+										<div class="other-article_descripshion">
+											<h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+											<span>28 September 2018</span>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="adds">
+							<div class="adds_img">
+								<img src="img/add/AD.png">
+							</div>
+						</div>
+						<div class="comments sidebar-background">
+							<div class="sidebar-background_title">
+								<h2>NEW COMMENTS</h2>
+							</div>
+							<div class="comments_content">
+								<article class="massege">
+									<div class="massege_img">
+										<img src="img/comments/vliianie_kofe_d_850.jpg">
+									</div>
+									<div class="massege_text">
+										<h5>Dmitriy Shestak</h5>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedp>
+									</div>
+								</article>
+								<article class="massege">
+									<div class="massege_img">
+										<img src="img/comments/vliianie_kofe_d_850.jpg">
+									</div>
+									<div class="massege_text">
+										<h5>Dmitriy Shestak</h5>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedp>
+									</div>
+								</article>
+								<article class="massege">
+									<div class="massege_img">
+										<img src="img/comments/vliianie_kofe_d_850.jpg">
+									</div>
+									<div class="massege_text">
+										<h5>Dmitriy Shestak</h5>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedp>
+									</div>
+								</article>
+								<article class="massege">
+									<div class="massege_img">
+										<img src="img/comments/vliianie_kofe_d_850.jpg">
+									</div>
+									<div class="massege_text">
+										<h5>Dmitriy Shestak</h5>
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedp>
+									</div>
+								</article>
+							</div>
+						</div>
+					</aside>
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer class="footer">
+		<div class="footer_top">
+			<div class="container">
+				<div class="row space-between relative">
+					<div class="footer_top_left">
+						<img src="img/header/JastBlog_logo.png">
+						<h2>- JastBlog</h2>
+					</div>
+					<div class="footer_top_right">
+						<h2>Follow us in:</h2>
+						<nav class="footer_top_right_social">
+							<a href="#" class="vk"><i class="fab fa-vk"></i></a>
+							<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+							<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+							<a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+							<a href="#" class="odnoklassniki"><i class="fab fa-odnoklassniki"></i></a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="footer_bottom_content">
+				<div class="container">
+					<div class="row">
+						<div class="about border">
+							<h3>about us</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						</div>
+						<div class="contact-us border">
+							<h3>contact us</h3>
+							<ul class="contact-us_menu">
+								<li><i class="fas fa-phone"></i>Phone: +333 28 999 88 63</li>
+								<li><i class="far fa-envelope"></i>Email: simple@gmail.com</li>
+								<li><i class="fas fa-map-marker-alt"></i>Address: USA  Street</li>
+							</ul>
+						</div>
+						<div class="links border">
+							<h3>links</h3>
+							<ul class="links_menu">
+								<li><a href="#">Posts</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Gallery</a></li>
+								<li><a href="#">Shop</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+						<div class="newsletters border">
+							<h3>newsletters</h3>
+							<p>Subscribe to get updates right in your inbox. We promise to not send you spams.</p>
+							<div class="newsletters_input">
+								<input type="text" name="newsletters" placeholder="Enter your email">
+								<span><i class="far fa-envelope"></i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom_copirate">
+				<div class="container">
+					<p>JastBlog Wordpress Theme. Powered by WordPress.</p>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-3.0.0.min.js"></script>
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/nextSlide/nextSlide_for_bacground.js"></script>
+	<script type="text/javascript" src="js/masonry.pkgd.js"></script>
+	<script type="text/javascript" src="js/Fixed-sidebar.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>
